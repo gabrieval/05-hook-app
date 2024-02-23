@@ -2,12 +2,12 @@ import React, { useRef } from 'react';
 import '../02-useEffect/effects.css';
 
 export const FocusScreen = () => {
-    const inpuRef = useRef(  );
-    // console.log(ref)
+    const inputRef = useRef(  );
+  
 
     const handleClick = () => {
-        inpuRef.current.select();
-        console.log(inpuRef);
+        inputRef.current.select();
+        console.log(inputRef);
     }
   return (
     <div>
@@ -15,7 +15,7 @@ export const FocusScreen = () => {
       <hr />
 
       <input 
-    ref={ inpuRef }
+    ref={ inputRef }
     className='form-control'
     placeholder='Su nombre'
       />
@@ -25,8 +25,6 @@ export const FocusScreen = () => {
       onClick={ handleClick }
       >
     Focus
-
-
       </button>
     </div>
   )

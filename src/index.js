@@ -8,11 +8,12 @@ import ReactDOM from 'react-dom';
 // import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks'
 // import { FocusScreen } from './components/04-useRef/FocusScreen';
 // import { RealExampleRef } from './components/04-useRef/RealExampleRef';
-import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
+// import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
+import { Layout } from './components/05-useLayoutEffect/Layout';
 
 ReactDOM.render (
 
-    < MultipleCustomHooks  />,
+    < Layout   />,
   document.getElementById( 'root' )
 );
 
